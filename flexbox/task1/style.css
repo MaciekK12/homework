@@ -40,9 +40,7 @@ body{
 .box1 {
     width: calc(33vw - 32px);
     height: calc(13vh - 36px);
-    background-color:brown;
-    
-    
+    background-color:brown; 
 }
 
 .box2 {
