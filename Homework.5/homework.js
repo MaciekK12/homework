@@ -246,7 +246,10 @@ function whatToDo() {
     //     console.log(`Cześć ${personD.name}, polecam Ci przeczytać ${book.name}, ma tylko ${book.pages} stron`)
     // }
     // else if (personD.czyLubiCztacKsiazki == false) {
-    //     console.log(`Nie wiem co CI zaprponować, idź oglądać telewizor`)
+    //     console.log('Idź oglądać telewizor')
+    // }
+    // else if (personD.czyLubiCztacKsiazki == false && personD.czyLubiOgladacFilmy == false){
+    // 	   console.log('Nie wiem co CI zaprponować')	
     // }
     const action = personD.czyLubiCztacKsiazki == true
         ? console.log(`Cześć ${personD.name}, polecam Ci przeczytać ${book.name}, ma tylko ${book.pages} stron`)
